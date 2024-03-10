@@ -28,9 +28,9 @@ const finctionalCharacter = {
         console.log(`${this.name} says: ${message}`)
     },
     menssageWhitArrowlFunction:  (message) => {
-        console.log(`${this.name} says: ${message}`)
+        console.log(`${this.name} says: ${message}`) //sale undifined
     },
 }
 
-finctionalCharacter.menssageWhitTraditionallFunction('Whit great power comes great responsability.')
-finctionalCharacter.menssageWhitArrowlFunction('Whit great power comes great responsability.')
+finctionalCharacter.menssageWhitTraditionalFunction('Whit great power comes great responsability.')
+finctionalCharacter.menssageWhitArrowlFunction('Beware of Doctor Octopus.')
