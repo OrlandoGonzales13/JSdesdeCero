@@ -11,6 +11,10 @@ const falconHeavyRocket = new Rocket('Falcon Heavy', personalizedMessage)
 console.log(falcon9Rocket.name)
 console.log(falcon9Rocket.launchMessage())
 
+console.log(falconHeavyRocket.name)
+console.log(falconHeavyRocket.launchMessage())
+
+//con arrow function no usamos this a diferencia de arriba.
 const RocketWhitArrowFunction = (name, ownMessage) => ({
     name: name,
     launchMessage: ownMessage
