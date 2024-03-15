@@ -19,7 +19,7 @@ function controlDeLibros(action,newBook,){
             if(libros.length === 0){
                 console.log(`No hay libros para borrar`)
             }else{
-                const eliminarLibro = libros.pop();
+                const eliminarLibro = libros.pop()
                 console.log(`Se elimino el libro: ${eliminarLibro}`)
             }
             break;
