@@ -42,3 +42,15 @@ console.log(conteo); // Imprime: { manzana: 3, banana: 2, naranja: 1 }
 // En este ejemplo, la función que pasamos a reduce() toma dos argumentos: el "acumulador" (que es el objeto donde almacenamos el conteo de palabras) y la "palabra" (que es el elemento actual del array).
 // Si la palabra ya existe como una propiedad en el acumulador, incrementamos su valor. Si no, la agregamos al acumulador con un valor inicial de 1.
 // Al final, el acumulador contiene el conteo de todas las palabras en el array, y lo almacenamos en la variable conteo. Por lo tanto, conteo es un objeto que contiene el conteo de todas las palabras en el array.
+
+
+//PROMEDIO DE NOTAS APROBATORIAS
+
+const notas = [100, 60, 80, 80, 69, 100]
+const NotasAprobatorias = notas.filter(notas => notas>=70) //ACA FILTRO LAS NOTAS APROBATORIAS 
+const SumaNotasAprobatorias = NotasAprobatorias.reduce((acumulador, notas) => acumulador+notas) //ACA SUMO LAS NOTAS APROBATORIAS
+const PromedioNotasAprobatorias = SumaNotasAprobatorias/NotasAprobatorias.length //SACO EL PROMEDIO DIVIDIENDO ENTRE LA CANTIDAD
+//DE NOTAS EN EL ARRAY NotasAprobatorias
+
+console.log(PromedioNotasAprobatorias) 
+
