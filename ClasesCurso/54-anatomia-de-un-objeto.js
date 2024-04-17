@@ -23,4 +23,7 @@ const persona = {
     }
 }
 
+console.log(persona)
 persona.saludar()
+
+
